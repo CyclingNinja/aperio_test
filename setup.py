@@ -1,0 +1,8 @@
+from setuptools import setup
+
+setup(
+    use_scm_version={
+        'root': '.',
+        'relative_to': __file__
+    }
+)
